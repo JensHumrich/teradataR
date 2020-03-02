@@ -44,7 +44,9 @@ Todd Brye, Erin Cole
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-tdf["col2"] <- LPAD(tdf["col1", 15, " "]) 
+\dontrun{
+tdf["col2"] <- LPAD(tdf["col1", 15, " "])
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

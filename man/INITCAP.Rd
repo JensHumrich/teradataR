@@ -38,7 +38,10 @@ Todd Brye, Erin Cole
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
+\dontrun{
+tdf <- tdQuery("SELECT * FROM customer")
 tdf["col2"] <- INITCAP(tdf["col1"]) 
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

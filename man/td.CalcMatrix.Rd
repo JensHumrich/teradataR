@@ -59,10 +59,12 @@ Erin Cole
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
+\dontrun{
 on2 <- on(target= "select * from tab1") 
 query <- td.CalcMatrix(selectPhrase="select session as ampkey, D1.* from TD_SYSFNLIB.calcmatrix", ons=on1, phase="LOCAL", as="D1")
 res <- tdQuery(query)
 print(res)
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

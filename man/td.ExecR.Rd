@@ -53,10 +53,12 @@ Erin Cole
 \code{\link{on}}
 }
 \examples{
+\dontrun{
 on1 <- on(target="select *", from="tab1", hash="c1", local_order="c2")
 query <- td.ExecR(selectPhrase="select distinct * from TD_SYSGPL.ExecR", ons=on1, contract="~/Documents/contract.txt", operator="~/Documents/operator.txt")
 res <- tdQuery(query)
 print(res)
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

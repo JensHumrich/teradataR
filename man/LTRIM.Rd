@@ -39,7 +39,9 @@ Todd Brye, Erin Cole
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-tdf["col2"] <- LTRIM(tdf["col1"]) 
+\dontrun{
+tdf["col2"] <- LTRIM(tdf["col1"])
+}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

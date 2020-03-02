@@ -65,7 +65,7 @@ Erin Cole
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-o <- on(target="select *" from="tab1", partition="any")
+o <- on(target="select *", from="tab1", partition="any")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
